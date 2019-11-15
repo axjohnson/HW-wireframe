@@ -1,13 +1,9 @@
-header, body, nav, section, article, aside {
-    border: 2px solid black;
-    background-color: pink
-    ;
-}
+/* 
 div {
     text-align: center;
     border-collapse: separate;
     border-spacing: 6px;
-    background-color: pink;
+    background-color: grey;
 }
 
 header {
@@ -18,21 +14,45 @@ header {
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
+    margin: 15px 15px 15px 15px;
+    background: #777;
+    background-color: #777;
+
 }
 
 nav {
      background-color: silver;
-     border-collapse: separate;
-    border-spacing: 6px;
+     margin: 10px 10px 10px 10px;
+}
+section {
+    width: 50%;
+    height: 350px;
+    float: left;
+    background-color: silver;
+    margin: 10px 10px 10px 10pxs;
+}
+aside {
+    float: left;
+    width: 49%;
+} */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    margin: 15px 15px 15px 15px;
+}
+#article {
+    color: #ebebeb;
+    background: #777;
+}
+header, nav, section, aside, footer {
+    background: #ebebeb;
+    text-align: center;
     
 }
 section {
-    width: 325px;
-    height: 350px;
-    float: center;
-    background-color: silver;
-}
-aside {
-    float: center
-    ;
+    width: 495px;
 }
